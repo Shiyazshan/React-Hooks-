@@ -27,12 +27,53 @@
 .App-link {
   color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+div.birthday{
+    width: 33%;
+    margin: 0 auto;
 }
+div.birthday h2{
+  text-align: center  ;
+}
+div.birthday ul{
+
+}
+div.birthday ul li{
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+div.birthday ul li div.left{
+  margin-right: 20px;
+  width: 20%;
+}
+div.birthday ul li div.left img{
+  width: 100%;
+  display: block;
+}
+div.birthday ul li div.right{
+
+}
+div.birthday ul li div.right h3{
+
+}
+div.birthday ul li div.right h5{
+  color: #00000042;;
+}
+div.birthday a.button{
+    display: inline-block;
+    background: #d43d94;
+    color: white;
+    padding: 10px 26px;
+    width: 100%;
+    text-align: center;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+}
+div.birthday a.button:hover{
+  background-color: #040241d2;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+
+
